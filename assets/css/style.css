@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+header {
+    height: 60px;
+    color: #666;
+    margin-top: 10px;
+}
+.header {
+    max-width: 1210px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+#logo {
+    width: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+}
+.logo-img img {
+    width: 36px;
+    height: 33px;
+}
+#logo h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+#menuAndSocialMedia {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+.menu ul,
+.menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+    gap: 40px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #666;
+    font-family: 'DM+Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.menu li a:hover,
+.menu .active a {
+    border-bottom: solid 5px #666;
+    color: #000;
+}
+.socialMedia {
+    display: flex;
+    gap: 20px;
+}
+.logo-socialMedia a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Group 8 
+
+Auto layout 
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 0px;
+gap: 255px;
+
+position: absolute;
+width: 1210px;
+height: 58px;
+left: 115px;
+top: calc(50% - 58px/2 - 455px);
+
+border-radius: 10px;
+*/
+
