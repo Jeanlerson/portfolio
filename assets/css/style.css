@@ -62,7 +62,7 @@ header {
     font-weight: 500;
 }
 .menu li a:hover,
-.menu .active a {
+.menu .active {
     border-bottom: solid 5px #666;
     color: #000;
 }
