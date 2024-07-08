@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Portfólio</title>
 </head>
@@ -21,35 +22,53 @@
                 <div class="menu">
                     <nav>
                         <ul>
-                            <li><a data-section="home" class="li active">Home</a></li>
-                            <li><a data-section="techStack" class="li">Tech Stack</a></li>
-                            <li><a data-section="projects" class="li">Projects</a></li>
-                            <li><a data-section="about" class="li">About</a></li>
-                            <li><a data-section="contact" class="li">Contact</a></li>
+                            <li><a style="--i:1" class="li active">Home</a></li>
+                            <li><a style="--i:2" class="li">Skills</a></li>
+                            <li><a style="--i:3" class="li">Projects</a></li>
+                            <li><a style="--i:4" class="li">About</a></li>
+                            <li><a style="--i:5" class="li">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="socialMedia">
                     <div class="logo-socialMedia">
-                        <a href="https://github.com/Jeanlerson" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/image/icon-github.png" alt="">
+                        <a href="https://github.com/Jeanlerson" style="--i:6" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-github' ></i>
                         </a>
                     </div>
                     <div class="logo-socialMedia">
-                        <a href="https://www.instagram.com/jeanlerson/" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/image/icon-insta.png" alt="">
+                        <a href="https://www.instagram.com/jeanlerson/" style="--i:7" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-instagram' ></i>
                         </a>
                     </div>
                     <div class="logo-socialMedia">
-                        <a href="https://www.linkedin.com/in/jeanlerson-santos-silva" target="_blank" rel="noopener noreferrer">
-                            <img src="assets/image/icon-linkedin.png" alt="">
+                        <a href="https://www.linkedin.com/in/jeanlerson-santos-silva" style="--i:8" target="_blank" rel="noopener noreferrer">
+                            <i class='bx bxl-linkedin' ></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <section id="home" class="content">
+            <div class="home-presentation">
+                <p>Hello people,</p>
+                <h1>My name is</h1>
+                <h1>Jeanlerson Santos</h1>
+                <p>Welcome to my portfolio website</p>
+            </div>
+            <div class="home-img">
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <div class="image">
+                        <img src="media/home.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 
     <script src="assets/js/script.js"></script>
