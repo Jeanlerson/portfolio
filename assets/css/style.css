@@ -14,13 +14,19 @@ header {
     width: 100%;
     height: 80px;
     color: #666;
-    background-color: #0c1022;
     display: flex;
     justify-content: center;
     position: fixed;
     z-index: 1;
 }
-.content {
+header.scrollMenu {
+    background-color: rgba(12, 16, 34, 0.9);
+    color: #fff;
+}
+header.scrollMenu .menu a {
+    color: #fff;
+}
+.container {
     max-width: 1210px;
     margin: auto;
 }
@@ -36,13 +42,14 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 21px;
+    gap: 18px;
     opacity: 0;
     animation: slideTop 1s ease forwards;
 }
-.logo-img img {
-    width: 36px;
-    height: 33px;
+.logo-img {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
 }
 #logo h1 {
     font-size: 15px;
@@ -204,15 +211,17 @@ main {
 }
 
 #skills {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 80px);
     margin-top: 30px;
     background-color: #0c1022;
-    padding: 30px;
 }
 .skills {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 .title {
     font-size: 35px;
@@ -222,20 +231,43 @@ main {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+.frame-skills {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
 .my-skills {
+    flex: 2;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
 }
 .my-skills .skills-img {
     display: flex;
-    gap: 50px;
+    gap: 30px;
+}
+.skills-img img {
+    background-color: #0c1022;
+    padding: 10px;
+    border-radius: 10px;
+}
+.infor-skills {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.frame-skills p {
+    display: none;
 }
 
 
 
 
-/* KEYFRAMES ANIMATION */
+
+/*---KEYFRAMES ANIMATION---*/
 
 @keyframes slideTop {
     0% {

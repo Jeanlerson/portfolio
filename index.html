@@ -11,10 +11,10 @@
 </head>
 <body>
     <header>
-        <div class="header content">
+        <div class="header container">
             <div id="logo">
                 <div class="logo-img">
-                    <img src="assets/image/logo.png" alt="">
+                    <i class='bx bx-terminal'></i>
                 </div>
                 <h1>Jeanlerson Santos</h1>
             </div>
@@ -22,11 +22,11 @@
                 <div class="menu">
                     <nav>
                         <ul>
-                            <li><a style="--i:1" class="li active">Home</a></li>
-                            <li><a style="--i:2" class="li">Skills</a></li>
-                            <li><a style="--i:3" class="li">Projects</a></li>
-                            <li><a style="--i:4" class="li">About</a></li>
-                            <li><a style="--i:5" class="li">Contact</a></li>
+                            <li><a href="#" style="--i:1" class="li active">Home</a></li>
+                            <li><a href="#" style="--i:2" class="li">Skills</a></li>
+                            <li><a href="#" style="--i:3" class="li">Projects</a></li>
+                            <li><a href="#" style="--i:4" class="li">About</a></li>
+                            <li><a href="#" style="--i:5" class="li">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -51,7 +51,7 @@
         </div>
     </header>
     <main>
-        <section id="home" class="content">
+        <section id="home" class="container">
             <div class="home-presentation">
                 <p>Hello people,</p>
                 <h1>My name is</h1>
@@ -69,23 +69,36 @@
             </div>
         </section>
         <section id="skills">
-            <div class="skills content">
+            <div class="skills container">
                 <div class="title">
                     <h1>My Skills:</h1>
                 </div>
-                <div class="my-skills">
-                    <div class="skills-img">
-                        <img src="assets/image/icon-html.png" alt="">
-                        <img src="assets/image/icon-css.png" alt="">
-                        <img src="assets/image/icon-js.png" alt="">
-                        <img src="assets/image/icon-react.png" alt="">
+                <div class="frame-skills">
+                    <p data-descSkill="skill1">html</p>
+                    <p data-descSkill="skill2">type script</p>
+                    <p data-descSkill="skill3">css</p>
+                    <p data-descSkill="skill4">vs code</p>
+                    <p data-descSkill="skill5">java script</p>
+                    <p data-descSkill="skill6">github</p>
+                    <p data-descSkill="skill7">react</p>
+                    <p data-descSkill="skill8">git</p>
+                    <div id="infor1" class="infor-skills">
                     </div>
-                    <div class="skills-img">
-                        <img src="assets/image/icon-ts.png" alt="">
-                        <img src="assets/image/icon-vs.png" alt="">
-                        <img src="assets/image/icon-github.png" alt="">
-                        <img src="assets/image/icon-git.png" alt="">
+                    <div class="my-skills">
+                        <div class="skills-img">
+                            <img data-descSkill="skill1" src="assets/image/icon-html.png" alt="">
+                            <img data-descSkill="skill3" src="assets/image/icon-css.png" alt="">
+                            <img data-descSkill="skill5" src="assets/image/icon-js.png" alt="">
+                            <img data-descSkill="skill7" src="assets/image/icon-react.png" alt="">
+                        </div>
+                        <div class="skills-img">
+                            <img data-descSkill="skill2" src="assets/image/icon-ts.png" alt="">
+                            <img data-descSkill="skill4" src="assets/image/icon-vs.png" alt="">
+                            <img data-descSkill="skill6" src="assets/image/icon-github.png" alt="">
+                            <img data-descSkill="skill8" src="assets/image/icon-git.png" alt="">
+                        </div>
                     </div>
+                    <div id="infor2" class="infor-skills"></div>
                 </div>
             </div>
         </section>
