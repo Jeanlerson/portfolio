@@ -241,7 +241,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background-color: #fff;
+    background-color: #242738;
     padding: 30px;
     border-radius: 10px;
 }
@@ -256,13 +256,19 @@ main {
 }
 .infor-skills {
     flex: 1;
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242738;
     border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 20px 30px;
 }
 .frame-skills p {
     display: none;
 }
-
 
 
 
