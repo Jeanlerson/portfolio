@@ -20,20 +20,14 @@ function scrollHeader() {
 function renderInforSillkFrame (e) {
     let skill = e.target.getAttribute('data-descSkill')
     let renderSkill = document.querySelector(`p[data-descSkill=${skill}]`)
-    let valueSkill = renderSkill.textContent
 
-    if ((skill === 'skill1') || (skill === 'skill2') || (skill === 'skill3') || (skill === 'skill4')) {
-        let infor1 = document.querySelector('#infor1')
-        infor1.textContent = valueSkill
-    } else {
-        let infor2 = document.querySelector('#infor2')
-        infor2.textContent = valueSkill
+    if (renderSkill) {
+        const valueSkill = renderSkill.textContent
+        const inforSkill = document.querySelector('.infor-skills')
+        inforSkill.textContent = valueSkill
     }
 }
 function returnToNormal () {
-    let infor1 = document.querySelector('#infor1')
-    let infor2 = document.querySelector('#infor2')
-
-    infor1.textContent = "Hover over the skill"
-    infor2.textContent = "Hover over the skill"
+    let inforSkill = document.querySelector('.infor-skills')
+    inforSkill.textContent = "Hover over the skill"
 }
