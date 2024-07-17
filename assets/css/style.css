@@ -158,6 +158,68 @@ main {
     animation: slideRight 1.5s ease forwards;
     animation-delay: .7s;
 }
+.language {
+    position: relative;
+    width: 120px;
+    font-weight: bold;
+}
+.language .language-selected {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.language .language-selected:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../image/us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.language ul {
+    position: absolute;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    padding-top: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.language ul li {
+    list-style: none;
+}
+.language ul li a {
+    display: block;
+    text-decoration: none;
+    color: #445964;
+    padding: 5px 10px;
+}
+.language ul li:hover {
+    background-color: #f8f8f8;
+}
+.language ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../image/us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.language a.en:before {
+    background-image: url(../image/us.png);
+}
+.language a.br:before {
+    background-image: url(../image/br.png);
+}
+.language:hover ul {
+    display: block;
+}
 .home-img {
     width: 400px;
     height: 400px;
