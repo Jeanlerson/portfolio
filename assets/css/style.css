@@ -183,6 +183,15 @@ main {
     background-repeat: no-repeat;
     margin-right: 10px;
 }
+
+/* JQUERY CLASS */
+.language-selected.change-en:before {
+    background-image: url(../image/us.png);
+}
+.language-selected.change-br:before {
+    background-image: url(../image/br.png);
+}
+
 .language ul {
     position: absolute;
     width: 150px;
