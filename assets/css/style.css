@@ -350,20 +350,46 @@ main {
 }
 .projects {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: #f06;
 }
+.projects .title {
+    margin-top: 100px;
+}
 .projects .frame-projects {
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;  
+    margin-top: -50px;
 }
 .frame-projects .my-projects {
-    flex: 1;
-    background-color: #3cf;
+    height: 240px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.my-projects img {
+    height: 55%;
+    width: 100%;
+    background-color: #445964;
+    border-radius: 20px;
+}
+.my-projects .infor-project {
+    height: 45%;
+    margin-top: -15px;
+    background-color: #fff;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
+#about {
+    height: 100vh;
+}
 
 
 
