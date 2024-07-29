@@ -357,34 +357,52 @@ main {
     background-color: #f06;
 }
 .projects .title {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 .projects .frame-projects {
     display: flex;
     justify-content: center;
     align-items: end;
     flex-wrap: wrap;  
-    margin-top: -50px;
+    margin-top: -70px;
 }
 .frame-projects .my-projects {
-    height: 240px;
+    height: 260px;
     width: 200px;
     border-radius: 20px;
     margin: 15px;
+    padding: 10px;
+    background-color: #3cf;
 }
-.my-projects img {
-    height: 55%;
+.my-projects .start-project {
+    height: 60%;
     width: 100%;
-    background-color: #445964;
-    border-radius: 20px;
+    background-color: #000;
+}
+.start-project .title-project {
+    text-align: center;
+    font-weight: bold;
+    color: #445964;
+}
+.start-project img {
+    width: 100%;
+    max-height: 100%;
 }
 .my-projects .infor-project {
-    height: 45%;
-    margin-top: -15px;
+    height: 40%;
     background-color: #fff;
     width: 100%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    padding-top: 20px;
+}
+.infor-project .technology-project .bxl-html5 {
+    color: #E65100;
+}
+.infor-project .technology-project .bxl-css3 {
+    color: #0277BD;
+}
+.infor-project .view--project {
+    display: flex;
+    flex-direction: column;
 }
 
 #about {
