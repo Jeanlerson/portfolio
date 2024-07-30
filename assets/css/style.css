@@ -354,7 +354,6 @@ main {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: #f06;
 }
 .projects .title {
     margin-top: 75px;
@@ -369,20 +368,23 @@ main {
 .frame-projects .my-projects {
     height: 260px;
     width: 200px;
+    border: solid 2px #000;
+    background-color: #0c1022;
     border-radius: 20px;
     margin: 15px;
     padding: 10px;
-    background-color: #3cf;
 }
 .my-projects .start-project {
     height: 60%;
     width: 100%;
-    background-color: #000;
 }
 .start-project .title-project {
     text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
-    color: #445964;
+    background: linear-gradient(45deg, #f06, #3cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .start-project img {
     width: 100%;
@@ -390,7 +392,6 @@ main {
 }
 .my-projects .infor-project {
     height: 40%;
-    background-color: #fff;
     width: 100%;
     padding-top: 20px;
 }
@@ -403,6 +404,13 @@ main {
 .infor-project .view--project {
     display: flex;
     flex-direction: column;
+}
+.view--project a {
+    text-decoration: none;
+    color: #fff;
+}
+.view--project a:hover {
+    color: #f06;
 }
 
 #about {
