@@ -459,6 +459,27 @@ main {
     align-items: center;
     flex-direction: column;
 }
+.my-contact .infor-contact {
+    font-weight: bold;
+    background: linear-gradient(45deg, #f06, #3cf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.infor-contact:nth-child(1) {
+    font-size: 90px;
+}
+.infor-contact:nth-child(2) {
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 /*---KEYFRAMES ANIMATION---*/
 
