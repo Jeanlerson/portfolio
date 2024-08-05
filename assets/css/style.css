@@ -5,6 +5,7 @@
 }
 
 body {
+    flex: 1 1 0;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     width: 100%;
@@ -449,7 +450,7 @@ main {
 }
 
 #contact {
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
 .my-contact {
     display: flex;
@@ -472,7 +473,21 @@ main {
     font-size: 40px;
 }
 
-
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0c1022;
+}
+.footer-copryright {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.footer-text {
+    margin-left: 5px;
+}
 
 
 
