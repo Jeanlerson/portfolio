@@ -346,6 +346,7 @@ main {
     display: none;
 }
 
+
 #projects {
     height: 100vh;
 }
@@ -376,6 +377,8 @@ main {
     padding: 10px;
 }
 .my-projects .start-project {
+    display: flex;
+    flex-direction: column;
     height: 60%;
     width: 100%;
 }
@@ -391,6 +394,24 @@ main {
     width: 100%;
     max-height: 100%;
 }
+.start-project .projects-photoarea {
+    position: relative;
+    height: 100%;
+}
+.projects-photoarea .projects-photoinfo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: none;
+    color: #fff;
+}
+.projects-photoinfo p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.projects-photoarea:hover .projects-photoinfo {
+    display: flex;
+}
 .my-projects .infor-project {
     height: 40%;
     width: 100%;
@@ -405,14 +426,17 @@ main {
 .infor-project .view--project {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .view--project a {
+    display: inline-block; 
     text-decoration: none;
     color: #fff;
 }
 .view--project a:hover {
     color: #f06;
 }
+
 
 #about {
     height: 100vh;
@@ -460,14 +484,16 @@ main {
     align-items: center;
     flex-direction: column;
 }
-.my-contact .infor-contact {
+.my-contact .infor-contact:nth-child(2) {
     font-weight: bold;
     background: linear-gradient(45deg, #f06, #3cf);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 .infor-contact:nth-child(1) {
-    font-size: 90px;
+    color: #1E0E62;
+    font-size: 50px;
+    font-weight: bold;
 }
 .infor-contact:nth-child(2) {
     font-size: 40px;
