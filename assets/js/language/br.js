@@ -27,5 +27,12 @@ $(function() {
         $(".infor-skills").text("Passe o mouse sobre uma habilidade")
         //projects
         $(".projects h1").text("Meus Projetos")
+        //about
+        $(".about-me h1").text("Sobre")
+        $(".text-about p:nth-child(1)").text("Desde de 2022 estudo programação, algo que me identifiquei e busquei cada vez mais a aprender. Durante os estudos realizei projetos e desenvolvi habilidades, tenho afinidade com HTML, CSS e JavaScript.")
+        $(".text-about p:nth-child(2)").text("Durante os estudos realizei projetos e desenvolvi habilidades, tenho afinidade com HTML, CSS e JavaScript.")
+        $(".text-about p:nth-child(3)").text("Busco por desafios que façam eu extrair meu máximo, sou dedicado e busco sempre fazer o melhor com eficiência e eficácia.")
+        //contact
+        $(".infor-contact:nth-child(1)").text("Entre em contato comigo pelo e-mail:")
     })
 })

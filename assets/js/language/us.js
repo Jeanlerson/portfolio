@@ -27,5 +27,12 @@ $(function() {
         $(".infor-skills").text("Hover over the skill")
         //projects
         $(".projects h1").text("My Projects")
+        //about
+        $(".about-me h1").text("Aboute Me")
+        $(".text-about p:nth-child(1)").text("Since 2022, I have been studying programming, something I identified with and have continuously sought to learn more about. During my studies, I worked on projects and developed skills, and I have an affinity for HTML, CSS, and JavaScript.")
+        $(".text-about p:nth-child(2)").text("I seek challenges that push me to perform at my best.")
+        $(".text-about p:nth-child(3)").text("I am dedicated and always strive to do my best with efficiency and effectiveness.")
+        //contact
+        $(".infor-contact:nth-child(1)").text("If you have any questions, please contact me:")
     })
 })
