@@ -27,6 +27,8 @@ $(function() {
         $(".infor-skills").text("Hover over the skill")
         //projects
         $(".projects h1").text("My Projects")
+        $(".view--project a:nth-child(1) span").text("Page")
+        $(".view--project a:nth-child(2) span").text("Repository")
         //about
         $(".about-me h1").text("Aboute Me")
         $(".text-about p:nth-child(1)").text("Since 2022, I have been studying programming, something I identified with and have continuously sought to learn more about. During my studies, I worked on projects and developed skills, and I have an affinity for HTML, CSS, and JavaScript.")
