@@ -29,5 +29,5 @@ function renderInforSillkFrame (e) {
 }
 function returnToNormal () {
     let inforSkill = document.querySelector('.infor-skills')
-    inforSkill.textContent = "Hover over the skill"
+    inforSkill.textContent = ""
 }
