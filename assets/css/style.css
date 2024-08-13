@@ -345,7 +345,6 @@ main {
     margin-top: 20px;
 }
 .infor-skills {
-    
     text-align: center;
     font-weight: bold;
     font-size: 23px;
@@ -431,6 +430,9 @@ main {
 }
 .infor-project .technology-project .bxl-css3 {
     color: #0277BD;
+}
+.infor-project .technology-project .bxl-javascript {
+    color: #FFD600;
 }
 .infor-project .view--project {
     display: flex;

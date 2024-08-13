@@ -42,7 +42,7 @@ $(function() {
         $(".my-projects:nth-child(4) p").text("Atributo feito sobre Eiichiro Oda, sua jornada e obras.")
         $(".my-projects:nth-child(5) p").text("Ao apertar uma key do seu teclado emite um som de uma nota musical de piano. Podendo compor um som com várias notas.")
         $(".my-projects:nth-child(6) p").text("Projeto de um cadastro de produtos e exibição do produto em uma tabela ao cadastrar.")
-        $(".my-projects:nth-child(7) p").text("Informa o clima e temperatura da localidade pesquisada.")
+        $(".my-projects:nth-child(7) p").text("Informa o clima e temperatura da localidade pesquisada. Utilizando a API da OpenWeatherMap")
         $(".my-projects:nth-child(8) p").text("O primeiro jogador que alinhar 3 de seus símbolos de maneira idêntica (horizontal, vertical ou diagonal), vence o jogo.")
         $(".my-projects:nth-child(9) p").text("Mostre sua criatividade desenhando com as cores disponíveis.")
         $(".my-projects:nth-child(10) p").text("Relógio virtual e analógivo, mostrando as horas atuais.")

@@ -7,6 +7,7 @@ document.querySelectorAll('.skills-img img').forEach(item => {
     item.addEventListener('mouseover', renderInforSillkFrame)
     item.addEventListener('mouseout', returnToNormal)
 })
+document.addEventListener('scroll', colorMenu)
 
 // FUNCTIONS
 function clickEvent(event) {
@@ -30,4 +31,24 @@ function renderInforSillkFrame (e) {
 function returnToNormal () {
     let inforSkill = document.querySelector('.infor-skills')
     inforSkill.textContent = ""
+}
+function colorMenu () {
+    const sections = document.querySelectorAll('section')
+    const menuLinks = document.querySelectorAll('.ul-menu .li')
+    
+    let currentSection = ''
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop
+        if (scrollY >= sectionTop - 80) {
+            currentSection = section.getAttribute('id')
+        }
+    })
+
+    menuLinks.forEach(link => {
+        link.classList.remove('active')
+        if (link.getAttribute('href').includes(currentSection)) {
+            link.classList.add('active')
+        }
+    })
 }
