@@ -450,7 +450,7 @@ main {
 
 
 #about {
-    height: 100vh;
+    height: calc(100vh - 80px);
 }
 .about-me {
     display: flex;

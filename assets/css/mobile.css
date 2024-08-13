@@ -1,0 +1,90 @@
+@media (max-width: 1235px) {
+    .container {
+        max-width: 1100px;
+    }
+
+    .home-presentation p {
+        font-size: 17px;
+    }
+    .home-presentation h1 {
+        font-size: 61px;
+    }
+    .home-img {
+        width: 300px;
+        height: 300px;
+    }
+    .home-img .circle::after {
+        width: 270px;
+        height: 270px;
+    }
+    .circle .image {
+        width: 270px;
+        height: 270px;
+    }
+    .image img {
+        max-width: 310px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .frame-skills {
+        height: 350px;
+    }
+    .my-skills {
+        gap: 20px;
+        padding: 20px;
+    }
+    .my-skills .skills-img {
+        gap: 20px;
+    }
+    .square-infor .title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .infor-skills {
+        font-size: 17px;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    .about-me {
+        padding-top: 90px;
+    }
+    .text-about p {
+        font-size: 20px;
+    }
+    .text-about p:nth-child(1) {
+        width: 850px;
+    }
+    .text-about p:nth-child(1)::after {
+        font-size: 85px;
+        left: -30px;
+        top: -40px;
+    }
+    .text-about p:nth-child(3)::after {
+        font-size: 85px;
+        top: -40px;
+        right: -40px;
+    }
+
+    .infor-contact:nth-child(1) {
+        font-size: 40px;
+    }
+    .infor-contact:nth-child(2) {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1235px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .home-presentation h1 {
+        font-size: 51px;
+    }
+}
