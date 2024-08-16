@@ -38,7 +38,7 @@ $(function() {
         $(".my-projects:nth-child(10) .title-project").text("Clock")
         $(".my-projects:nth-child(1) p").text("Landing page for a product, JBL speaker")
         $(".my-projects:nth-child(2) p").text("Clone a layout to practice HTML and CSS")
-        $(".my-projects:nth-child(3) p").text("Fighting game made in pure JavaScript")
+        $(".my-projects:nth-child(3) p").text("Fighting game made in pure JavaScript. Using objects and functions")
         $(".my-projects:nth-child(4) p").text("Attribute made about Eiichiro Oda, his journey and works.")
         $(".my-projects:nth-child(5) p").text("When you press a key on your keyboard, a piano note sounds. You can compose a sound with several notes.")
         $(".my-projects:nth-child(6) p").text("Design of a product registry and display of the product in a table when registering.")
