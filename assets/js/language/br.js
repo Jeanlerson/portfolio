@@ -31,7 +31,7 @@ $(function() {
         $(".view--project a:nth-child(2) span").text("Repositório")
         $(".my-projects:nth-child(3) .title-project").text("Projeto Luta")
         $(".my-projects:nth-child(5) .title-project").text("Teclado Virtual")
-        $(".my-projects:nth-child(6) .title-project").text("Cadastro Form")
+        $(".my-projects:nth-child(6) .title-project").text("Tabela de Tarefas")
         $(".my-projects:nth-child(7) .title-project").text("Clima")
         $(".my-projects:nth-child(8) .title-project").text("Jogo da Velha")
         $(".my-projects:nth-child(9) .title-project").text("Quadro de Desenho")
